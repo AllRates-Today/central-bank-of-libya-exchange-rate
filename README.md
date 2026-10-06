@@ -85,10 +85,10 @@ const pair = await getRate('USD', 'LYD', { apiKey: 'art_live_...' });
 {
   bank: 'cbl',
   name: 'Central Bank of Libya',
-  rate_date: '2026-09-27',   // Central Bank of Libya's own publication date
+  rate_date: '2026-10-06',   // Central Bank of Libya's own publication date
   source: 'USD',
   target: 'LYD',
-  rate: 6.3925,
+  rate: 6.4279,
   rate_type: 'middle',
   derived: false,
   method: 'published',
@@ -113,11 +113,11 @@ console.log(table.rate_date, table.rates.length);
 {
   bank: 'cbl',
   name: 'Central Bank of Libya',
-  rate_date: '2026-09-27',
+  rate_date: '2026-10-06',
   rates: [
-    { "base": "USD", "quote": "LYD", "type": "middle", "value": 6.3925 },
-    { "base": "USD", "quote": "LYD", "type": "sell", "value": 6.4085 },
-    { "base": "USD", "quote": "LYD", "type": "buy", "value": 6.3765 },
+    { "base": "USD", "quote": "LYD", "type": "middle", "value": 6.4279 },
+    { "base": "USD", "quote": "LYD", "type": "sell", "value": 6.444 },
+    { "base": "USD", "quote": "LYD", "type": "buy", "value": 6.4119 },
     // … the rest of the published table (20 currencies vs LYD)
   ],
   disclaimer: '…'
@@ -157,7 +157,7 @@ Paid plans. One resolved rate per publication date — ready for charting, reval
 import { getHistory } from 'central-bank-of-libya-exchange-rate';
 
 const series = await getHistory(
-  { source: 'USD', target: 'LYD', from: '2026-01-01', to: '2026-09-27' },
+  { source: 'USD', target: 'LYD', from: '2026-01-01', to: '2026-10-06' },
   { apiKey: 'art_live_...' }
 );
 ```
@@ -170,11 +170,11 @@ const series = await getHistory(
   source: 'USD',
   target: 'LYD',
   from: '2026-01-01',
-  to: '2026-09-27',
+  to: '2026-10-06',
   count: 152,
   rates: [
     // one entry per publication date
-    { date: '2026-09-27', rate: 6.3925, rate_type: 'middle', derived: false, method: 'published' },
+    { date: '2026-10-06', rate: 6.4279, rate_type: 'middle', derived: false, method: 'published' },
     // …
   ],
   disclaimer: '…'
