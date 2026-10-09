@@ -4,6 +4,8 @@
 [![license](https://img.shields.io/npm/l/central-bank-of-libya-exchange-rate.svg)](https://github.com/AllRates-Today/central-bank-of-libya-exchange-rate/blob/main/LICENSE)
 [![zero dependencies](https://img.shields.io/badge/dependencies-0-brightgreen.svg)](https://www.npmjs.com/package/central-bank-of-libya-exchange-rate)
 [![TypeScript](https://img.shields.io/badge/TypeScript-types%20included-3178C6.svg)](https://www.typescriptlang.org/)
+[![USD/LYD today](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fallratestoday.com%2Fapi%2Fopen%2Fcentral-bank%2Fcbl%3Fsource%3DUSD%26target%3DLYD&query=%24.rate&label=USD%2FLYD%20published%20by%20Central%20Bank%20of%20Libya&color=0A7E8C&cacheSeconds=3600)](https://allratestoday.com/central-bank-rates-api/cbl/)
+[![rate date](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fallratestoday.com%2Fapi%2Fopen%2Fcentral-bank%2Fcbl%3Fsource%3DUSD%26target%3DLYD&query=%24.rate_date&label=rate%20date&color=555&cacheSeconds=3600)](https://allratestoday.com/central-bank-rates-api/cbl/)
 
 **Official Central Bank of Libya (Libya) daily exchange rates for Node.js and TypeScript. The published central bank rates behind tax filings, customs valuations, audits, and compliant invoicing — not market estimates, but the numbers Central Bank of Libya itself prints, every business day.**
 
@@ -32,6 +34,79 @@ console.log(r.rate_date, r.rates.length); // the central bank's latest published
 ```
 
 The open endpoint serves the *latest* table only and asks for a visible attribution link. The client below uses the keyed API, which adds point-in-time tables, history, and CSV/XML/Excel output.
+
+## 📈 Latest published table
+
+Today's full Central Bank of Libya table, straight from the central bank's latest publication. On GitHub it is refreshed by [a daily Action](.github/workflows/daily-table.yml) that reads the keyless endpoint above and commits only when the central bank publishes a new table; the copy on npm is as of the package's publish date.
+
+<!-- daily-table:start -->
+Published **2026-10-08** by Central Bank of Libya — 60 rates. Updated 2026-10-08.
+
+| Base | Quote | Type | Rate |
+| --- | --- | --- | ---: |
+| AED | LYD | buy | 1.7459 |
+| AED | LYD | middle | 1.7503 |
+| AED | LYD | sell | 1.7546 |
+| AUD | LYD | buy | 4.4587 |
+| AUD | LYD | middle | 4.4699 |
+| AUD | LYD | sell | 4.4811 |
+| CAD | LYD | buy | 4.497 |
+| CAD | LYD | middle | 4.5082 |
+| CAD | LYD | sell | 4.5195 |
+| CHF | LYD | buy | 7.6983 |
+| CHF | LYD | middle | 7.7176 |
+| CHF | LYD | sell | 7.7369 |
+| CNY | LYD | buy | 0.9568 |
+| CNY | LYD | middle | 0.9592 |
+| CNY | LYD | sell | 0.9616 |
+| DKK | LYD | buy | 0.961 |
+| DKK | LYD | middle | 0.9634 |
+| DKK | LYD | sell | 0.9658 |
+| DZD | LYD | buy | 0.0477 |
+| DZD | LYD | middle | 0.0478 |
+| DZD | LYD | sell | 0.0479 |
+| EUR | LYD | buy | 7.1822 |
+| EUR | LYD | middle | 7.2002 |
+| EUR | LYD | sell | 7.2182 |
+| GBP | LYD | buy | 8.4654 |
+| GBP | LYD | middle | 8.4866 |
+| GBP | LYD | sell | 8.5078 |
+| JPY | LYD | buy | 0.0406 |
+| JPY | LYD | middle | 0.0407 |
+| JPY | LYD | sell | 0.0408 |
+| MAD | LYD | buy | 0.6435 |
+| MAD | LYD | middle | 0.6451 |
+| MAD | LYD | sell | 0.6467 |
+| MRU | LYD | buy | 0.16 |
+| MRU | LYD | middle | 0.16 |
+| MRU | LYD | sell | 0.161 |
+| NOK | LYD | buy | 0.6699 |
+| NOK | LYD | middle | 0.6716 |
+| NOK | LYD | sell | 0.6733 |
+| RUB | LYD | buy | 0.0756 |
+| RUB | LYD | middle | 0.0756 |
+| RUB | LYD | sell | 0.0756 |
+| SAR | LYD | buy | 1.7081 |
+| SAR | LYD | middle | 1.7124 |
+| SAR | LYD | sell | 1.7167 |
+| SEK | LYD | buy | 0.641 |
+| SEK | LYD | middle | 0.6426 |
+| SEK | LYD | sell | 0.6442 |
+| TND | LYD | buy | 2.1362 |
+| TND | LYD | middle | 2.1415 |
+| TND | LYD | sell | 2.1469 |
+| TRY | LYD | buy | 0.1303 |
+| TRY | LYD | middle | 0.1306 |
+| TRY | LYD | sell | 0.131 |
+| USD | LYD | buy | 6.4127 |
+| USD | LYD | middle | 6.4287 |
+| USD | LYD | sell | 6.4448 |
+| XOF | LYD | buy | 0.0109 |
+| XOF | LYD | middle | 0.011 |
+| XOF | LYD | sell | 0.011 |
+
+Source: [Official rates published by CBL, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/cbl/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
+<!-- daily-table:end -->
 
 ## 🔑 Get your API key
 
