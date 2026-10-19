@@ -33,79 +33,82 @@ const r = await fetch('https://allratestoday.com/api/open/central-bank/cbl').the
 console.log(r.rate_date, r.rates.length); // the central bank's latest published table, no key
 ```
 
-The open endpoint serves the *latest* table only and asks for a visible attribution link. The client below uses the keyed API, which adds point-in-time tables, history, and CSV/XML/Excel output.
+The open endpoint serves the *latest* table only (JSON by default; add `?format=csv`, `xml` or `xlsx` for a file) and asks for a visible attribution link. The client below uses the keyed API, which adds point-in-time tables and history.
 
 ## 📈 Latest published table
 
 [![Latest Central Bank of Libya table](https://allratestoday.com/api/open/central-bank/cbl/table.svg)](https://allratestoday.com/central-bank-rates-api/cbl/)
 
-The image is rendered live from the keyless endpoint above, so it follows the central bank's publications on npm and on GitHub alike without a new release. The text copy below is there for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
+The image is rendered live from the keyless endpoint above, so it follows the central bank's publications on npm and on GitHub alike without a new release. The same table as text is folded below for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
 
 <!-- daily-table:start -->
-Published **2026-10-18** by Central Bank of Libya — 60 rates. Updated 2026-10-18.
+<details>
+<summary>Table as text: published 2026-10-19 by Central Bank of Libya — 60 rates. Updated 2026-10-19.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AED | LYD | buy | 1.7421 |
-| AED | LYD | middle | 1.7465 |
-| AED | LYD | sell | 1.7508 |
-| AUD | LYD | buy | 4.444 |
-| AUD | LYD | middle | 4.4552 |
-| AUD | LYD | sell | 4.4663 |
-| CAD | LYD | buy | 4.5259 |
-| CAD | LYD | middle | 4.5373 |
-| CAD | LYD | sell | 4.5486 |
-| CHF | LYD | buy | 7.7656 |
-| CHF | LYD | middle | 7.785 |
-| CHF | LYD | sell | 7.8045 |
-| CNY | LYD | buy | 0.9569 |
-| CNY | LYD | middle | 0.9593 |
-| CNY | LYD | sell | 0.9617 |
-| DKK | LYD | buy | 0.9621 |
-| DKK | LYD | middle | 0.9645 |
-| DKK | LYD | sell | 0.9669 |
+| AED | LYD | buy | 1.743 |
+| AED | LYD | middle | 1.7474 |
+| AED | LYD | sell | 1.7518 |
+| AUD | LYD | buy | 4.4635 |
+| AUD | LYD | middle | 4.4747 |
+| AUD | LYD | sell | 4.4859 |
+| CAD | LYD | buy | 4.5382 |
+| CAD | LYD | middle | 4.5496 |
+| CAD | LYD | sell | 4.561 |
+| CHF | LYD | buy | 7.7667 |
+| CHF | LYD | middle | 7.7862 |
+| CHF | LYD | sell | 7.8056 |
+| CNY | LYD | buy | 0.9581 |
+| CNY | LYD | middle | 0.9605 |
+| CNY | LYD | sell | 0.9629 |
+| DKK | LYD | buy | 0.9609 |
+| DKK | LYD | middle | 0.9633 |
+| DKK | LYD | sell | 0.9657 |
 | DZD | LYD | buy | 0.0476 |
 | DZD | LYD | middle | 0.0477 |
 | DZD | LYD | sell | 0.0478 |
-| EUR | LYD | buy | 7.1917 |
-| EUR | LYD | middle | 7.2097 |
-| EUR | LYD | sell | 7.2277 |
-| GBP | LYD | buy | 8.5286 |
-| GBP | LYD | middle | 8.5499 |
-| GBP | LYD | sell | 8.5713 |
+| EUR | LYD | buy | 7.1825 |
+| EUR | LYD | middle | 7.2005 |
+| EUR | LYD | sell | 7.2185 |
+| GBP | LYD | buy | 8.5318 |
+| GBP | LYD | middle | 8.5531 |
+| GBP | LYD | sell | 8.5745 |
 | JPY | LYD | buy | 0.0405 |
 | JPY | LYD | middle | 0.0406 |
 | JPY | LYD | sell | 0.0407 |
-| MAD | LYD | buy | 0.6568 |
-| MAD | LYD | middle | 0.6584 |
-| MAD | LYD | sell | 0.6601 |
-| MRU | LYD | buy | 0.16 |
+| MAD | LYD | buy | 0.6575 |
+| MAD | LYD | middle | 0.6592 |
+| MAD | LYD | sell | 0.6608 |
+| MRU | LYD | buy | 0.159 |
 | MRU | LYD | middle | 0.16 |
-| MRU | LYD | sell | 0.161 |
+| MRU | LYD | sell | 0.16 |
 | NOK | LYD | buy | 0.6787 |
 | NOK | LYD | middle | 0.6804 |
 | NOK | LYD | sell | 0.6821 |
-| RUB | LYD | buy | 0.077 |
-| RUB | LYD | middle | 0.077 |
-| RUB | LYD | sell | 0.077 |
-| SAR | LYD | buy | 1.7051 |
-| SAR | LYD | middle | 1.7093 |
-| SAR | LYD | sell | 1.7136 |
-| SEK | LYD | buy | 0.6455 |
-| SEK | LYD | middle | 0.6471 |
-| SEK | LYD | sell | 0.6488 |
-| TND | LYD | buy | 2.1388 |
-| TND | LYD | middle | 2.1442 |
-| TND | LYD | sell | 2.1495 |
+| RUB | LYD | buy | 0.0772 |
+| RUB | LYD | middle | 0.0772 |
+| RUB | LYD | sell | 0.0772 |
+| SAR | LYD | buy | 1.706 |
+| SAR | LYD | middle | 1.7103 |
+| SAR | LYD | sell | 1.7146 |
+| SEK | LYD | buy | 0.6457 |
+| SEK | LYD | middle | 0.6473 |
+| SEK | LYD | sell | 0.6489 |
+| TND | LYD | buy | 2.1377 |
+| TND | LYD | middle | 2.143 |
+| TND | LYD | sell | 2.1484 |
 | TRY | LYD | buy | 0.1292 |
 | TRY | LYD | middle | 0.1295 |
 | TRY | LYD | sell | 0.1298 |
-| USD | LYD | buy | 6.3987 |
-| USD | LYD | middle | 6.4147 |
-| USD | LYD | sell | 6.4308 |
-| XOF | LYD | buy | 0.011 |
+| USD | LYD | buy | 6.4021 |
+| USD | LYD | middle | 6.4181 |
+| USD | LYD | sell | 6.4342 |
+| XOF | LYD | buy | 0.0109 |
 | XOF | LYD | middle | 0.011 |
 | XOF | LYD | sell | 0.011 |
+
+</details>
 
 Source: [Official rates published by CBL, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/cbl/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
 <!-- daily-table:end -->
@@ -380,7 +383,8 @@ Need the whole archive rather than an API call? The same published tables are mi
 - [All central bank sources](https://allratestoday.com/central-bank-rates-api/)
 - [Package docs on the site](https://allratestoday.com/docs/sdk/central-bank-of-libya-exchange-rate/) · [ERP integration guides](https://allratestoday.com/docs/integrations/)
 - [API documentation](https://allratestoday.com/docs/#central-bank) · [Interactive reference](https://allratestoday.com/api-reference/) · [Methodology](https://allratestoday.com/official-rates-methodology/)
-- [Register (free)](https://allratestoday.com/register) · [Pricing](https://allratestoday.com/pricing/)
+- [Register (Free)](https://allratestoday.com/register) · [Dashboard](https://allratestoday.com/profile) · [Pricing](https://allratestoday.com/pricing/)
+- [Status](https://allratestoday.com/status)
 - [GitHub](https://github.com/AllRates-Today/central-bank-of-libya-exchange-rate)
 
 ## 📜 License
