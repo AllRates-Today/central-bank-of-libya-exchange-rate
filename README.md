@@ -47,67 +47,67 @@ The image is rendered live from the keyless endpoint above, so it follows the ce
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-10-28 by Central Bank of Libya — 60 rates. Updated 2026-10-28.</summary>
+<summary>Table as text: published 2026-10-29 by Central Bank of Libya — 60 rates. Updated 2026-10-29.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AED | LYD | buy | 1.7476 |
-| AED | LYD | middle | 1.752 |
-| AED | LYD | sell | 1.7563 |
-| AUD | LYD | buy | 4.5153 |
-| AUD | LYD | middle | 4.5267 |
-| AUD | LYD | sell | 4.538 |
-| CAD | LYD | buy | 4.565 |
-| CAD | LYD | middle | 4.5764 |
-| CAD | LYD | sell | 4.5879 |
-| CHF | LYD | buy | 7.7308 |
-| CHF | LYD | middle | 7.7501 |
-| CHF | LYD | sell | 7.7695 |
-| CNY | LYD | buy | 0.9627 |
-| CNY | LYD | middle | 0.9651 |
-| CNY | LYD | sell | 0.9675 |
-| DKK | LYD | buy | 0.955 |
-| DKK | LYD | middle | 0.9574 |
-| DKK | LYD | sell | 0.9598 |
-| DZD | LYD | buy | 0.0475 |
+| AED | LYD | buy | 1.7464 |
+| AED | LYD | middle | 1.7507 |
+| AED | LYD | sell | 1.7551 |
+| AUD | LYD | buy | 4.5176 |
+| AUD | LYD | middle | 4.5289 |
+| AUD | LYD | sell | 4.5402 |
+| CAD | LYD | buy | 4.5839 |
+| CAD | LYD | middle | 4.5954 |
+| CAD | LYD | sell | 4.6069 |
+| CHF | LYD | buy | 7.7374 |
+| CHF | LYD | middle | 7.7568 |
+| CHF | LYD | sell | 7.7762 |
+| CNY | LYD | buy | 0.9629 |
+| CNY | LYD | middle | 0.9653 |
+| CNY | LYD | sell | 0.9677 |
+| DKK | LYD | buy | 0.9558 |
+| DKK | LYD | middle | 0.9582 |
+| DKK | LYD | sell | 0.9605 |
+| DZD | LYD | buy | 0.0474 |
 | DZD | LYD | middle | 0.0476 |
-| DZD | LYD | sell | 0.0478 |
-| EUR | LYD | buy | 7.1381 |
-| EUR | LYD | middle | 7.156 |
-| EUR | LYD | sell | 7.1739 |
-| GBP | LYD | buy | 8.53 |
-| GBP | LYD | middle | 8.5514 |
-| GBP | LYD | sell | 8.5728 |
+| DZD | LYD | sell | 0.0477 |
+| EUR | LYD | buy | 7.143 |
+| EUR | LYD | middle | 7.1609 |
+| EUR | LYD | sell | 7.1788 |
+| GBP | LYD | buy | 8.5384 |
+| GBP | LYD | middle | 8.5598 |
+| GBP | LYD | sell | 8.5812 |
 | JPY | LYD | buy | 0.0406 |
-| JPY | LYD | middle | 0.0408 |
-| JPY | LYD | sell | 0.0409 |
-| MAD | LYD | buy | 0.6513 |
-| MAD | LYD | middle | 0.6529 |
-| MAD | LYD | sell | 0.6546 |
-| MRU | LYD | buy | 0.16 |
-| MRU | LYD | middle | 0.16 |
+| JPY | LYD | middle | 0.0407 |
+| JPY | LYD | sell | 0.0408 |
+| MAD | LYD | buy | 0.6515 |
+| MAD | LYD | middle | 0.6531 |
+| MAD | LYD | sell | 0.6547 |
+| MRU | LYD | buy | 0.159 |
+| MRU | LYD | middle | 0.159 |
 | MRU | LYD | sell | 0.16 |
-| NOK | LYD | buy | 0.6879 |
-| NOK | LYD | middle | 0.6896 |
-| NOK | LYD | sell | 0.6913 |
-| RUB | LYD | buy | 0.08 |
-| RUB | LYD | middle | 0.08 |
-| RUB | LYD | sell | 0.08 |
-| SAR | LYD | buy | 1.71 |
-| SAR | LYD | middle | 1.7143 |
-| SAR | LYD | sell | 1.7186 |
-| SEK | LYD | buy | 0.6446 |
-| SEK | LYD | middle | 0.6463 |
-| SEK | LYD | sell | 0.6479 |
-| TND | LYD | buy | 2.1371 |
-| TND | LYD | middle | 2.1425 |
-| TND | LYD | sell | 2.1478 |
-| TRY | LYD | buy | 0.1288 |
-| TRY | LYD | middle | 0.1291 |
+| NOK | LYD | buy | 0.6923 |
+| NOK | LYD | middle | 0.694 |
+| NOK | LYD | sell | 0.6958 |
+| RUB | LYD | buy | 0.0801 |
+| RUB | LYD | middle | 0.0801 |
+| RUB | LYD | sell | 0.0801 |
+| SAR | LYD | buy | 1.7093 |
+| SAR | LYD | middle | 1.7136 |
+| SAR | LYD | sell | 1.7179 |
+| SEK | LYD | buy | 0.6467 |
+| SEK | LYD | middle | 0.6483 |
+| SEK | LYD | sell | 0.6499 |
+| TND | LYD | buy | 2.1321 |
+| TND | LYD | middle | 2.1374 |
+| TND | LYD | sell | 2.1428 |
+| TRY | LYD | buy | 0.1287 |
+| TRY | LYD | middle | 0.129 |
 | TRY | LYD | sell | 0.1294 |
-| USD | LYD | buy | 6.4189 |
-| USD | LYD | middle | 6.4349 |
-| USD | LYD | sell | 6.451 |
+| USD | LYD | buy | 6.4143 |
+| USD | LYD | middle | 6.4304 |
+| USD | LYD | sell | 6.4465 |
 | XOF | LYD | buy | 0.0109 |
 | XOF | LYD | middle | 0.0109 |
 | XOF | LYD | sell | 0.0109 |
@@ -277,6 +277,7 @@ The Central Bank of Libya publishes daily mid, buying and selling rates for 20 c
 
 - Publisher's own page: [Currency exchange rates](https://cbl.gov.ly/currency-exchange-rates/) · [cbl.gov.ly](https://cbl.gov.ly)
 - Publication: every business day; the exact schedule, freshness status and any current delay are on the [Central Bank of Libya rates page](https://allratestoday.com/central-bank-rates-api/cbl/)
+- In the API: usually by **07:20 UTC** (measured over the last 11 publications). Schedule a sync at or after that time and retry hourly until `rate_date` moves; every response carries the same figure as `available_by_utc` — see [when to poll](https://allratestoday.com/docs/#when-to-poll)
 - Values are stored unmodified, with the publisher's own `rate_date` on every row — see the [methodology](https://allratestoday.com/official-rates-methodology/)
 
 ## 🧭 Reading the numbers
